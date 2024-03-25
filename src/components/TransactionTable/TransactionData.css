@@ -1,0 +1,78 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 20px; 
+    cursor: pointer;
+    height: 60%;
+    overflow-y: auto;
+  }
+  th, td {
+    border: 0.5px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .main-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .first-container{
+    height: 15%;
+    width: 15%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+
+  }
+  .second-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .input-element{
+    outline: none;
+    color: black;
+    height: 30px;
+    width: 45%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+  .dropdown-list{
+    outline: none;
+    color: black;
+    height: 30px;
+    width: 30%;
+    cursor: pointer;
+  }
+  
+  .last-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-weight: bold;
+  }
+  .next-button{
+    cursor: pointer;
+  }
+  .previous-button{
+    cursor: pointer;
+  }
+  .product-image{
+    background-color: transparent;
+  }
+  .line{
+    color: black;
+  }
